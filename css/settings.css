@@ -1,0 +1,27 @@
+/* ACC Config file form */
+form {
+    color: #FFFF;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input[type=text] {
+    width: 97%;   
+    margin: 5px;  
+    padding: 8px 15px;   
+    box-sizing: border-box;   
+}
+
+.settingsDiv {
+    border-radius: 8px;
+    background-color: #282828;
+    width: 500px;
+    height: 500px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

@@ -1,0 +1,19 @@
+/* Telemetry Charts */
+#telemetry1 {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #3196DD;
+}
+
+#telemetry2 {
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    color: #FA4857;
+}
+
+#telemetryChart {
+    width: 97.45%;
+    height: 100%;
+}

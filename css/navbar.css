@@ -1,0 +1,33 @@
+/* Styling the entire webpage */
+body {
+    background-color: #1A1A1A;
+    font-family: 'Avenir', sans-serif; /*https://www.cdnfonts.com/avenir.font*/
+}
+
+/* Navigation */
+.navbar {
+    list-style-type: none;
+}
+
+.navbar li {
+    margin: auto;
+    float: left;
+    position: relative;
+    left: 40%;
+}
+
+.navbar li a {
+    display: block;
+    color: #FFFF;
+    padding: 14px 16px;
+}
+
+.navbar li a:hover {
+    border-radius: 8px;
+    border-bottom: 2px solid #FFFD00;
+}
+
+/* Disable scrollbar */
+::-webkit-scrollbar {
+    display: none;
+}

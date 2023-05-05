@@ -1,0 +1,8 @@
+{
+  "DISPLAYNAME": "ACC",
+  "IP_ADDRESS": "127.0.0.1",
+  "PORT": "9000",
+  "PASS": "asd",
+  "COMMAND_PASS": "",
+  "INTERVAL": "150"
+}

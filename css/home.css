@@ -1,0 +1,11 @@
+/* Text */
+p {
+    color: #FFFF;
+}
+
+/* Status of the ACC API */
+#connectionList {
+    position: absolute;
+    top: 1;
+    left: 1;
+}

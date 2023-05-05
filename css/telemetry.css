@@ -1,0 +1,173 @@
+/* Default Styles preventing the same styles from repeating */
+.defaultTyre {
+    border: 1px solid #1A1A1A;
+    display: flex;
+    align-items: center;
+    text-align-last: center;
+    text-align: center;
+    position: absolute;
+    justify-content: center;
+    width: 30%;
+    height: 30%;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.defaultDamage {
+    position: absolute;
+    font-size: 14px;
+    color: #FFFF;
+}
+
+.defaultTelemetry {
+    position: absolute;
+    border-radius: 8px;
+    background-color: #282828;
+}
+
+/* Tyre Information - Temperature + Pressure */
+.carContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.carBox {
+    position: relative;
+    width: 350px;
+    height: 410px;
+    border-radius: 20px;
+    background-color: #282828;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 65px;
+    margin-right: 262px;
+}
+
+.fl-tyre {
+    top: 0;
+    left: 0;
+}
+
+.fr-tyre {
+    top: 0;
+    right: 0;
+}
+
+.rl-tyre {
+    bottom: 0;
+    left: 0;
+}
+
+.rr-tyre {
+    bottom: 0;
+    right: 0;
+}
+
+/* Vehicle Damage */
+.front-damage {
+    top: -20px;
+}
+
+.left-damage {
+    left: -20px;
+    writing-mode: vertical-lr;
+}
+
+.right-damage {
+    right: -20px;
+    writing-mode: vertical-rl;
+}
+
+.rear-damage {
+    bottom: -20px;
+    font-size: 14px;
+}
+
+/* Driver's Charts */
+#speedChart, #steeringChart, #gearChart, #inputChart {
+    position: relative;
+    width: 400px;
+    height: 128px;
+}
+
+/* Driver's Telemetry */
+.carInfo {
+    top: 180px;
+    right: 500px;
+    height: 400px;
+}
+
+.speedDiv {
+    top: 81px;
+    right: 30px;
+}
+
+.steeringDiv {
+    top: 297px;
+    right: 30px;
+}
+
+.gearDiv {
+    top: 515px;
+    right: 450px;
+}
+
+.inputDiv {
+    top: 515px;
+    right: 30px;
+}
+
+/* Delta to fastest laptime */
+.lapDiv {
+    top: 515px;
+    left: 30px;
+    width: 220px;
+    height: 200px;
+}
+
+.lapDiv p {
+    color: #FFFF;
+    padding-left: 15px;
+}
+
+.lastSector1, .lastSector2, .lastSector3 {
+    margin: 0 auto;
+}
+/* Fuel infomation */
+.fuelDiv {
+    top: 515px;
+    left: 266px;
+    width: 225px;
+    height: 200px;
+}
+
+.fuelDiv p {
+    color: #FFFF;
+    padding-left: 15px;
+}
+
+.fuelTank {
+    margin: 0 auto;
+}
+
+/* Average Laptimes */
+#lap_minutes, #lap_seconds, #lap_milliseconds {
+    position: relative;
+    left: 10px;
+}
+
+#titleLap, #titleRace {
+    margin: 0 auto;
+}
+
+#race_hours, #race_minutes {
+    position: relative;
+    left: 10px;
+}
+
+#fuelNeeded {
+    position: relative;
+    margin-top: 5px;
+    margin-left: -4px;
+}

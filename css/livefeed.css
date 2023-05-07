@@ -4,7 +4,6 @@ table {
     color: #FFFF;
     border-collapse: collapse;
     width: 100%;
-    top: 55px;
 }
 
 th, td {
@@ -19,10 +18,10 @@ tr:nth-child(odd) {
 
 /* Session infomation */
 .sessionDiv {
-    width: 1070px;
+    width: 1px;
     position: relative;
     text-align: center;
-    top: 65px;
+    top: -65px;
 }
 
 .sessionDiv p {
